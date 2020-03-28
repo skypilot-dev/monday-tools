@@ -3,8 +3,26 @@
   "version": "0.1.0",
   "private": false,
   "description": "Tools for working with Monday.com",
-  "repository": "https://github.com/skypilotcc/monday-tools.git",
+  "keywords": [
+    "monday",
+    "api",
+    "tools"
+  ],
+  "homepage": "https://github.com/skypilotcc/monday-tools#readme",
+  "bugs": {
+    "url": "https://github.com/skypilotcc/monday-tools/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skypilotcc/monday-tools.git"
+  },
   "license": "ISC",
-  "author": "William Thorsen <wthorsen@skypilot.dev>",
-  "main": "lib/index.js"
+  "author": {
+    "name": "William Thorsen",
+    "email": "<wthorsen@skypilot.dev"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  }
 }
